@@ -1,0 +1,15 @@
+# SQL Server / Visual Studio / SSMS Temporary Files
+*.user
+*.suo
+*.tmp
+*.log
+bin/
+obj/
+.vs/
+
+# OS Specific Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
