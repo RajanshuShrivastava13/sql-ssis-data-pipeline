@@ -7,14 +7,19 @@
 ## 📂 Project Structure
 
 ```text
-sql-ssis-data-pipeline/
-├── .gitignore
-├── README.md
-├── 01_SQL_Developer/
-│   ├── 01_schema_setup.sql
-│   ├── 02_data_insertion.sql
-│   ├── 03_joins_and_subqueries.sql
-│   ├── 04_window_functions.sql
-│   ├── 05_cte_and_views.sql
-│   └── 06_stored_procedures_triggers.sql
-└── 02_SQL_DBA/         <-- (Upcoming DBA Phase)
+- sql-ssis-data-pipeline/
+  ├── .gitignore
+  ├── README.md
+  ├── 01_SQL_Developer/
+  │   ├── 01_schema_setup.sql
+  │   ├── 02_data_insertion.sql
+  │   ├── 03_joins_and_subqueries.sql
+  │   ├── 04_window_functions.sql
+  │   ├── 05_cte_and_views.sql
+  │   └── 06_stored_procedures_triggers.sql
+  └── 02_SQL_DBA/
+      ├── 01_database_setup.sql
+      ├── 02_backup_recovery.sql
+      ├── 03_security_and_roles.sql
+      ├── 04_performance_indexes.sql
+      └── 05_agent_jobs_automation.sql
